@@ -66,18 +66,19 @@ h3.heading{
 /*--portfolio--*/
 .portfolio img{
   max-width: 100%;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px !important;
   transition: transform .5s ease;
+  
 }
 .portfolio img:hover{
   transform: scale(1.1);
-  cursor: zoom-in;
+  cursor: pointer;
 }
 .portfolio{
   overflow: hidden;
 }
 .col-sm-4{
-  padding: 0;
+  padding: 0px;
 }
 /*portfolio end*/
 .card {
