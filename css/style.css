@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 body{
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   font-family: 'Lato', sans-serif;
   color: #505962;
 }
@@ -37,7 +37,7 @@ body{
 }
 /*slider*/
  .carousel-item{
-  height: 90vh;
+  height: 80vh;
 }
 /*.carousel-caption{
   position: absolute;
@@ -121,10 +121,36 @@ footer input ,textarea{
   border:1px solid;
   color:#dee7ec;
 }
+.panel-footer{
+  color: aliceblue;
+  padding-top: 3rem;
+}
+.footer-logo > img{
+  margin-top: 2 rem;
+  width: 300px;
+  text-align: center;
+}
 .new-pro > ul {
   list-style: none;
   /* margin-left: 0; */
   padding-left: 0.5em;
+}
+.icons{
+  text-align: center;
+  font-size: 25px;
+  margin: 1em auto;
+}
+.icons i {
+  margin-left: .7em;
+}
+
+.icons > i:hover{
+  color: rgb(204, 202, 202);
+  cursor: pointer;
+}
+.ender{
+  text-align: center;
+  padding-bottom: .4rem;
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
