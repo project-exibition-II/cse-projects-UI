@@ -46,3 +46,5 @@ if (window.innerWidth <= 766) {
 else {
      setBigSize();
 }
+const searchInput = document.getElementById('search');
+

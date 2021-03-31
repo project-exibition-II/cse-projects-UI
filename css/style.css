@@ -4,6 +4,7 @@ body{
   /*overflow-x: hidden;*/
   font-family: 'Lato', sans-serif;
   color: #505962;
+  display: flexbox;
 }
 .offset::before{
   height: 3.8rem;
@@ -70,6 +71,15 @@ h3.heading{
   transition: transform .5s ease;
   
 }
+.image-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.6);
+  color: #fff;
+}
 .portfolio img:hover{
   transform: scale(1.1);
   cursor: pointer;
@@ -113,6 +123,7 @@ h3.heading{
   background-color: #189582;
   color: white;
 }
+
 footer input ,textarea{
   width:200px;
   margin-top:10px;
