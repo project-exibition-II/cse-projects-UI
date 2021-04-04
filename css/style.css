@@ -6,6 +6,8 @@ body{
   color: #505962;
   display: flex;
   flex-flow: column;  
+  width: auto;
+  height: 1200px;
 }
 .offset::before{
   height: 3.8rem;
