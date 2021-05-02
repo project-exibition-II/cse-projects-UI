@@ -54,6 +54,12 @@ body{
 
 } 
 /*============= COURSE SECTION =============*/
+.heading{
+  text-align: center;
+  justify-content: center;
+  padding-top:4rem ;
+  font-weight:unset;
+}
 section {
   display: flex;
   flex-direction: row;
@@ -63,23 +69,36 @@ section {
   background: var(--clr-neutrel-100);
   font-family: sans-serif;
   padding-right: 15em;
+  padding: 100px;
   
 }
 .card {
   color: var(--clr-neutrel-100);
-  background-image: url(https://images.unsplash.com/photo-1618480305445-55f7c4d2ebbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxOTIwNTYzOA&ixlib=rb-1.2.1&q=80&w=400);
   background-size: cover;
   padding: 10rem 0 0;
   max-width: 35ch;
-  border-radius: .5rem;
   overflow: hidden;
   transition: transform 500ms ease;
 }
-
-.card:hover,
-.card:focus-within {
-  transform: scale(1.05);
+.card-1{
+  background-image: url(/images/courses/ai-1.jpg);
 }
+.card-2 {
+  background-image: url(/images/courses/ml.jpg);
+}
+.card-3 {
+  background-image: url(/images/courses/iot.jpg);
+}
+.card-4 {
+  background-image: url(/images/courses/cse.jpg);
+}
+.card-5{
+  background-image: url(/images/courses/gamming.jpg);
+}
+.card-6 {
+  background-image: url(/images/courses/mobile\ app\ dev.jpg);
+}
+
 
 .card-content {
   --padding: 1.5rem;
@@ -118,7 +137,16 @@ section {
   position: relative;
   width: max-content;
 }
-
+.heading-underline{
+  content: "";
+  position: absolute;
+  height: 3px;
+  left: calc(var(--padding)*-1);
+  bottom: -2px;
+  width: calc(100% + var(--padding));
+  background: var(--clr--accent-400);
+  
+}
 .card-title::after {
   content: "";
   position: absolute;
@@ -155,6 +183,11 @@ section {
   background-color: var(--clr-neutrel-100);
 }
 /*--portfolio--*/
+/* trending styles start*/
+.paddingTrend{
+  padding-left: 1rem;
+}
+/* trending style end */
 
 .search-bar{
   width: 600px;
@@ -229,6 +262,13 @@ footer input ,textarea{
   list-style: none;
   margin-left: 0;
   padding-left: 0.5em;
+
+}
+.no-underline{
+  text-decoration: none;
+  color: inherit;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
 }
 .icons{
   text-align: center;
