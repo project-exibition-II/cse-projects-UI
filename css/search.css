@@ -1,0 +1,25 @@
+.search{
+     width: 100%;
+     height: auto;
+     display: flex;
+     justify-content: center;
+}
+
+.box-s{
+     width: 50%;
+}
+
+.search__input{
+     height: 3.5em;
+     width: 100%;
+     border-radius: 25px;
+     border: 0.1px solid gray;
+     padding: 0.5em;
+     color: gray;
+     box-shadow: 0 0 10px 1px;
+     transition-duration: 250ms;
+}
+
+.search__input:hover{
+     box-shadow: 0 0 10px 3px;
+}

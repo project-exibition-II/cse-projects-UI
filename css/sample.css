@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+
+.container{
+     display: flex;
+}
+
+.container > img{
+     width: 100%;
+     object-fit: contain;
+}
+
+.container__subtitle {
+     color: gray;
+}
+
+.container > * + *{
+     margin-left: 2em;
+}
+
+.secondary{
+     width: 90%;
+     margin: 0 auto 5em auto;
+     display: flex;
+     flex-direction: column;
+     
+     padding: 1.75em;
+}
+.secondary >img{
+     width: 100%;
+     object-fit: contain;
+}
+.text-bold{
+     font-weight: bolder;
+     font-size: large;
+}
+
+.note{
+     display: flex;
+     border: 1px solid rgb(46, 46, 46);
+     background-color: rgb(240, 239, 239);
+     color: black;
+     padding: 5rem;
+     padding-right: 10rem;
+     overflow: hidden;
+     height: 5rem;
+     justify-content: center;
+}
+
+.note__link{
+     text-decoration: none;
+     color:black;
+     font-size: 1rem;
+     justify-content: left;
+     /* change the font-size using rem and dont use em */
+}
+
+.note__link:hover{
+     color: rgb(73, 85, 255);
+     /* change this color to change while keeping the mouse over it      */
+}
+
+.commands{
+     font-family: consolas, "courier new";
+     display: grid;
+     box-sizing: border-box;
+     border: 2rem rgb(27, 27, 27);
+     background-color: rgb(163, 166, 168);
+     padding: 5px 5px 5px 5px;
+     margin: 10px;
+     padding-top:1.3rem ;
+     padding-right: 20px;
+}
